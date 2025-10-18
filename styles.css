@@ -1,26 +1,16 @@
 #canvas-image-blending {
-    position: fixed; /* stay in background */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh; /* full viewport height */
-    z-index: -1; /* behind content */
-    display: block;
+    position: absolute; 
+    width: 100%; 
+    height: 750px; 
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    left: 0; 
 }
 
-.main-content {
-    position: relative; /* above canvas */
-    z-index: 1;
-    width: 100%;
-    text-align: center;
-    color: white; /* make text readable on background */
-}
-
-/*
 .main-content {
   padding: 5% 5%;
 }
-*/
 
 .header {
   display: flex;
