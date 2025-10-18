@@ -17,7 +17,7 @@ var granimInstance = new Granim({
     direction: 'top-bottom',
     isPausedWhenNotInView: true,
     image : {
-        source: 'assets/cornell.jpeg', //change image for intro section if desired
+        source: 'assets/cornell.jpg', // intro section background image
         blendingMode: 'multiply',
     },
     states : {
