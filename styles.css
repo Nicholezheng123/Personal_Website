@@ -264,3 +264,17 @@ ul {
 #canvas-image-blending {
   display: none !important;
 }
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#canvas-image-blending {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100vw !important;
+  height: 100vh !important;
+  z-index: -1; /* keep it behind your text */
+}
